@@ -30,10 +30,11 @@ DEPENDS += " \
 PV = "0.0-gitr${SRCPV}"
 
 SRC_URI = " \
-  git://github.com/atom/electron.git;protocol=https \
+  git://github.com/FirstlinkConsulting/electron-1.git;protocol=https \
   file://fix_build.patch \
 "
-SRCREV = "135aca02af8aef5792984d47bf1c7a35a11f90a3"
+# this is the tag for v.1.7.8
+SRCREV = "01ca2252cd5410c34c7e794672c7b59de301b4d4"
 
 S = "${WORKDIR}/git"
 
